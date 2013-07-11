@@ -4,6 +4,85 @@ linux-lowlatency (3.10.0-0.15) UNRELEASED; urgency=low
   CHANGELOG: Use the printchanges target to see the curent changes.
   CHANGELOG: Use the insertchanges target to create the final log.
 
+  [ Ubuntu: 3.10.0-2.11 ]
+
+  * [Config] enforce CONFIG_DEBUG_INFO
+  * SAUCE: intel_pstate -- toggle default to disable
+    - LP: #1188647
+  * [Packaging] add accellerators for binary-udeb
+  * SAUCE: ext4: fix ext4_get_group_number() at cluster boundaries
+    - LP: #1195710
+  * SAUCE: (no-up) apparmor: fix apparmor module status for none root users
+    - LP: #1199912
+  * d-i: Add qlcnic to nic-modules
+    - LP: #1196597
+  * [Debian] Prepare to build using arch specific compiler
+  * Build armhf using gcc-4.7
+
+  [ Ubuntu: 3.10.0-2.10 ]
+
+  * [Config] CONFIG_INTEL_MEI*=m
+    - LP: #1196155
+  * [Config] CONFIG_DEBUG_INFO=y
+  * [Config] fix Calxeda xgmac module filename
+  * Revert "serial: 8250_pci: add support for another kind of NetMos
+    Technology PCI 9835 Multi-I/O Controller"
+    - LP: #1190967
+  * mfd: lpc_ich: Add support for Intel Avoton SoC
+    - LP: #1196658
+
+  [ Ubuntu: 3.10.0-2.9 ]
+
+  * rebase to v3.10
+  * Revert "SAUCE: (no-up) apparmor: Fix quieting of audit messages for
+    network mediation"
+  * Revert "SAUCE: (no-up) apparmor: Fix compile warnings"
+  * Revert "SAUCE: (no-up) AppArmor: basic networking rules"
+  * Revert "SAUCE: (no-up) apparmor: Add the ability to mediate mount"
+  * Revert "SAUCE: (no-up) AppArmor: Add profile introspection file to
+    interface"
+  * Revert "SAUCE: (no-up) AppArmor: Disable Add PR_{GET,SET}_NO_NEW_PRIVS
+    to prevent execve from granting privs"
+  * SAUCE: (no-up) apparmor: Sync to apparmor 3 dev stable snapshot
+  * rebase to v3.10
+
+  [ Ubuntu: 3.10.0-1.8 ]
+
+  * Release Tracking Bug
+    - LP: #1195717
+  * Revert "ubuntu: overlayfs -- follow change to do_splice_direct
+    interface"
+  * Revert "ubuntu: overlayfs -- expose do_splice_direct prototype"
+  * Revert "SAUCE: ubuntu: overlayfs -- ovl_path_open should not take path
+    reference"
+  * Revert "ubuntu: overlayfs -- add FS_ALIAS"
+  * Revert "ubuntu: overlayfs --
+    overlayfs-copy-up-i_uid-i_gid-from-the-underlying-inode"
+  * Revert "ubuntu: overlayfs -- ovl-switch-to-inode_permission"
+  * Revert "ubuntu: overlayfs -- vfs-export-inode_permission-to-modules"
+  * Revert "ubuntu: overlayfs -- overlayfs-create-new-inode-in-ovl_link"
+  * Revert "ubuntu: overlayfs --
+    overlayfs-fix-possible-leak-in-ovl_new_inode"
+  * Revert "ubuntu: overlayfs -- fs-limit-filesystem-stacking-depth"
+  * Revert "ubuntu: overlayfs -- overlay-overlay-filesystem-documentation"
+  * Revert "ubuntu: overlayfs -- overlayfs-implement-show_options"
+  * Revert "ubuntu: overlayfs -- overlayfs-add-statfs-support"
+  * Revert "ubuntu: overlayfs -- overlay filesystem"
+  * Revert "ubuntu: overlayfs -- vfs-introduce-clone_private_mount"
+  * Revert "ubuntu: overlayfs -- vfs-export-do_splice_direct-to-modules"
+  * Revert "ubuntu: overlayfs -- vfs-add-i_op-dentry_open"
+  * ubuntu: overlayfs v18 -- -- overlayfs: add statfs support
+  * ubuntu: overlayfs v18 -- -- overlayfs: implement show_options
+  * ubuntu: overlayfs v18 -- -- vfs: add i_op->dentry_open()
+  * ubuntu: overlayfs v18 -- -- vfs: export do_splice_direct() to modules
+  * ubuntu: overlayfs v18 -- -- vfs: export __inode_permission() to modules
+  * ubuntu: overlayfs v18 -- -- vfs: introduce clone_private_mount()
+  * ubuntu: overlayfs v18 -- -- overlay filesystem
+  * ubuntu: overlayfs v18 -- -- fs: limit filesystem stacking depth
+  * ubuntu: overlayfs v18 -- -- overlay: overlay filesystem documentation
+  * [Config] CONFIG_SUNRPC_DEBUG=y
+    - LP: #1127319
+
  -- Andy Whitcroft <apw@canonical.com>  Thu, 11 Jul 2013 19:14:41 +0100
 
 linux-lowlatency (3.10.0-0.14) UNRELEASED; urgency=low
