@@ -17,5 +17,5 @@ do_source_package       = false
 do_full_source          = true
 do_common_headers_indep = true
 do_libc_dev_package     = false
-do_tools                = false
+do_tools                = true
 disable_d_i             = true
