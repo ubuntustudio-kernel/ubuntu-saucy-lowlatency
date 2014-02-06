@@ -4,6 +4,14 @@ linux-lowlatency (3.11.0-18.11) UNRELEASED; urgency=low
   CHANGELOG: Use the printchanges target to see the curent changes.
   CHANGELOG: Use the insertchanges target to create the final log.
 
+  [ Ubuntu: 3.11.0-17.31 ]
+
+  * Release Tracking Bug
+    - LP: #1275899
+  * Revert "UBUNTU: SAUCE: Fix compat_sys_recvmsg on x32 archs"
+  * [Upstream] x86, x32: Correct invalid use of user timespec in the kernel
+    - LP: #1274754
+
  -- Kaj Ailomaa <zequence@mousike.me>  Thu, 06 Feb 2014 20:21:16 +0100
 
 linux-lowlatency (3.11.0-17.10) saucy; urgency=low
