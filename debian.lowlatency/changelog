@@ -438,7 +438,7 @@ linux-lowlatency (3.11.0-22.15) saucy; urgency=low
 
   * n_tty: Fix n_tty_write crash when echoing in raw mode
 
- --  <>  Sat, 10 May 2014 21:49:34 +0200
+ -- Kaj Ailomaa <zequence@mousike.me>  Sat, 10 May 2014 21:49:34 +0200
 
 linux-lowlatency (3.11.0-20.14) saucy; urgency=low
 
