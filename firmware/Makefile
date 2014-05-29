@@ -56,6 +56,9 @@ fw-shipped-$(CONFIG_USB_EMI62) += emi62/loader.fw emi62/bitstream.fw \
 fw-shipped-$(CONFIG_USB_SERIAL_WHITEHEAT) += whiteheat_loader.fw whiteheat.fw \
 					   # whiteheat_loader_debug.fw
 
+fw-shipped-$(CONFIG_BT_HCIBTUSB) += intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
+fw-shipped-$(CONFIG_BT_HCIBTUSB) += intel/ibt-hw-37.7.10-fw-1.80.2.3.d.bseq
+
 fw-shipped-all := $(fw-shipped-y) $(fw-shipped-m) $(fw-shipped-)
 
 # Directories which we _might_ need to create, so we have a rule for them.
@@ -152,6 +155,9 @@ $(obj)/%.fw: $(obj)/%.HEX $(ihex2fw_dep) | $(objtree)/$(obj)/$$(dir %)
 # .H16 is our own modified form of Intel HEX, with 16-bit length for records.
 $(obj)/%.fw: $(obj)/%.H16 $(ihex2fw_dep) | $(objtree)/$(obj)/$$(dir %)
 	$(call cmd,h16tofw)
+
+$(obj)/%.bseq: $(obj)/%.HEX $(ihex2fw_dep) | $(objtree)/$(obj)/$$(dir %)
+	$(call cmd,ihex2fw)
 
 $(firmware-dirs):
 	$(call cmd,mkdir)
