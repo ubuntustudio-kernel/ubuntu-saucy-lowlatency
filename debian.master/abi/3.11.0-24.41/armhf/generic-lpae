@@ -2798,6 +2798,7 @@ EXPORT_SYMBOL vmlinux 0x07cc4a5d	printk_timed_ratelimit
 EXPORT_SYMBOL vmlinux 0x07cf9099	wait_for_completion_timeout
 EXPORT_SYMBOL vmlinux 0x07d83611	input_inject_event
 EXPORT_SYMBOL vmlinux 0x07f40beb	kernel_getpeername
+EXPORT_SYMBOL vmlinux 0x07fb6297	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0x081be035	devm_request_threaded_irq
 EXPORT_SYMBOL vmlinux 0x081f3afb	complete_all
 EXPORT_SYMBOL vmlinux 0x08216276	kobject_get
@@ -3145,7 +3146,6 @@ EXPORT_SYMBOL vmlinux 0x1dd571e6	fb_copy_cmap
 EXPORT_SYMBOL vmlinux 0x1df107ca	simple_lookup
 EXPORT_SYMBOL vmlinux 0x1e047854	warn_slowpath_fmt
 EXPORT_SYMBOL vmlinux 0x1e26be3b	get_anon_bdev
-EXPORT_SYMBOL vmlinux 0x1e51c9f5	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0x1e6d26a8	strstr
 EXPORT_SYMBOL vmlinux 0x1e719d3f	xfrm_find_acq_byseq
 EXPORT_SYMBOL vmlinux 0x1e9edfb7	seq_hlist_start_head_rcu
@@ -5091,6 +5091,7 @@ EXPORT_SYMBOL vmlinux 0x9fae5a0c	try_to_writeback_inodes_sb
 EXPORT_SYMBOL vmlinux 0x9fb3dd30	memcpy_fromiovec
 EXPORT_SYMBOL vmlinux 0x9fbf6892	jbd2_log_wait_commit
 EXPORT_SYMBOL vmlinux 0x9fc7192b	simple_transaction_read
+EXPORT_SYMBOL vmlinux 0x9fcb477d	__dev_set_rx_mode
 EXPORT_SYMBOL vmlinux 0x9fd49fc7	inode_init_always
 EXPORT_SYMBOL vmlinux 0x9fdecc31	unregister_netdevice_many
 EXPORT_SYMBOL vmlinux 0x9ffa3a75	netdev_max_backlog

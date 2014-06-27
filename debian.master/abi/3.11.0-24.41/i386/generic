@@ -5072,7 +5072,6 @@ EXPORT_SYMBOL vmlinux 0x2c99a946	dev_printk_emit
 EXPORT_SYMBOL vmlinux 0x2cadb4a0	poll_schedule_timeout
 EXPORT_SYMBOL vmlinux 0x2cea4758	blk_queue_max_segment_size
 EXPORT_SYMBOL vmlinux 0x2cf100c8	user_path_create
-EXPORT_SYMBOL vmlinux 0x2d00567a	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0x2d0acbda	neigh_sysctl_register
 EXPORT_SYMBOL vmlinux 0x2d140a58	genl_unlock
 EXPORT_SYMBOL vmlinux 0x2d24b7a0	commit_creds
@@ -6605,6 +6604,7 @@ EXPORT_SYMBOL vmlinux 0x867e9e4f	__serio_register_port
 EXPORT_SYMBOL vmlinux 0x868acba5	get_options
 EXPORT_SYMBOL vmlinux 0x86a4889a	kmalloc_order_trace
 EXPORT_SYMBOL vmlinux 0x86cde5f6	phy_ethtool_set_eee
+EXPORT_SYMBOL vmlinux 0x86d15c2d	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0x86d5255f	_raw_write_lock_irqsave
 EXPORT_SYMBOL vmlinux 0x86ded12d	vfs_write
 EXPORT_SYMBOL vmlinux 0x86e00271	set_pages_array_uc
@@ -6906,6 +6906,7 @@ EXPORT_SYMBOL vmlinux 0x9919203a	bio_endio
 EXPORT_SYMBOL vmlinux 0x991928f3	__pskb_pull_tail
 EXPORT_SYMBOL vmlinux 0x99203dd7	md_done_sync
 EXPORT_SYMBOL vmlinux 0x9921c614	vga_switcheroo_unregister_client
+EXPORT_SYMBOL vmlinux 0x99226c12	__dev_set_rx_mode
 EXPORT_SYMBOL vmlinux 0x99246255	crypto_sha256_update
 EXPORT_SYMBOL vmlinux 0x99517682	udp_encap_enable
 EXPORT_SYMBOL vmlinux 0x99591a7a	ipv6_ext_hdr

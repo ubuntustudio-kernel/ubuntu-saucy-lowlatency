@@ -7350,6 +7350,7 @@ EXPORT_SYMBOL vmlinux 0xccc21f5e	input_get_new_minor
 EXPORT_SYMBOL vmlinux 0xcd13d916	mmc_set_blocklen
 EXPORT_SYMBOL vmlinux 0xcd279169	nla_find
 EXPORT_SYMBOL vmlinux 0xcd30b95a	tmio_core_mmc_clk_div
+EXPORT_SYMBOL vmlinux 0xcd359736	__dev_set_rx_mode
 EXPORT_SYMBOL vmlinux 0xcd3a370e	dev_get_by_name
 EXPORT_SYMBOL vmlinux 0xcd63c845	__aeabi_lasr
 EXPORT_SYMBOL vmlinux 0xcd734c7f	request_firmware_nowait
@@ -7783,7 +7784,6 @@ EXPORT_SYMBOL vmlinux 0xe7a664c4	nf_hooks
 EXPORT_SYMBOL vmlinux 0xe7a81967	audit_log_secctx
 EXPORT_SYMBOL vmlinux 0xe7aed188	kernel_getpeername
 EXPORT_SYMBOL vmlinux 0xe7b6a6dd	neigh_compat_output
-EXPORT_SYMBOL vmlinux 0xe7bebbde	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0xe7d4daac	seq_list_next
 EXPORT_SYMBOL vmlinux 0xe7e15910	dispc_clear_irqstatus
 EXPORT_SYMBOL vmlinux 0xe7f5d368	bio_split
@@ -7979,6 +7979,7 @@ EXPORT_SYMBOL vmlinux 0xf35ef6f3	seq_bitmap_list
 EXPORT_SYMBOL vmlinux 0xf3797152	snd_interval_ratnum
 EXPORT_SYMBOL vmlinux 0xf389fe60	__hw_addr_init
 EXPORT_SYMBOL vmlinux 0xf3916987	global_cursor_default
+EXPORT_SYMBOL vmlinux 0xf392e52a	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0xf396cd21	tcp_parse_md5sig_option
 EXPORT_SYMBOL vmlinux 0xf3ac688e	udp_lib_rehash
 EXPORT_SYMBOL vmlinux 0xf3bf0bce	__bitmap_complement
