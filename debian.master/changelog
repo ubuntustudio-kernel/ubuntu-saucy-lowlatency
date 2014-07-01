@@ -1,4 +1,4 @@
-linux (3.11.0-25.42) saucy; urgency=low
+linux (3.11.0-25.43) saucy; urgency=low
 
   [ Luis Henriques ]
 
@@ -198,11 +198,13 @@ linux (3.11.0-25.42) saucy; urgency=low
   * Linux 3.11.10.12
     - LP: #1335084
   * lzo: properly check for overruns
+    - LP: #1335313
     - CVE-2014-4608
   * lz4: ensure length does not wrap
-    - CVE-2014-2611
+    - LP: #1335314
+    - CVE-2014-4611
 
- -- Luis Henriques <luis.henriques@canonical.com>  Tue, 01 Jul 2014 10:08:09 +0100
+ -- Luis Henriques <luis.henriques@canonical.com>  Tue, 01 Jul 2014 17:00:20 +0100
 
 linux (3.11.0-24.41) saucy; urgency=low
 
