@@ -7159,7 +7159,6 @@ EXPORT_SYMBOL vmlinux 0xb05fc310	sysctl_rmem_max
 EXPORT_SYMBOL vmlinux 0xb0687181	bio_split
 EXPORT_SYMBOL vmlinux 0xb08bd147	d_find_any_alias
 EXPORT_SYMBOL vmlinux 0xb09a71aa	scsi_print_command
-EXPORT_SYMBOL vmlinux 0xb09ee253	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0xb0a0da0c	rational_best_approximation
 EXPORT_SYMBOL vmlinux 0xb0b847ac	__bitmap_full
 EXPORT_SYMBOL vmlinux 0xb0c0e999	kfree_skb
@@ -7184,6 +7183,7 @@ EXPORT_SYMBOL vmlinux 0xb1b80e1d	mb_cache_entry_get
 EXPORT_SYMBOL vmlinux 0xb1bdfdfa	__set_page_dirty_nobuffers
 EXPORT_SYMBOL vmlinux 0xb1bdfe52	nla_append
 EXPORT_SYMBOL vmlinux 0xb1c3a01a	oops_in_progress
+EXPORT_SYMBOL vmlinux 0xb1c73d6e	sock_diag_put_filterinfo
 EXPORT_SYMBOL vmlinux 0xb1cf44df	fb_find_best_mode
 EXPORT_SYMBOL vmlinux 0xb1cfad22	rdmsr_on_cpu
 EXPORT_SYMBOL vmlinux 0xb1d4b84d	jbd2_journal_set_triggers
@@ -8237,6 +8237,7 @@ EXPORT_SYMBOL vmlinux 0xf56613a3	request_firmware
 EXPORT_SYMBOL vmlinux 0xf5893abf	up_read
 EXPORT_SYMBOL vmlinux 0xf58fb95b	kobject_add
 EXPORT_SYMBOL vmlinux 0xf598be6a	rwsem_downgrade_wake
+EXPORT_SYMBOL vmlinux 0xf5993ce5	__dev_set_rx_mode
 EXPORT_SYMBOL vmlinux 0xf5b10e67	acpi_install_global_event_handler
 EXPORT_SYMBOL vmlinux 0xf5bd6b2d	sock_no_getname
 EXPORT_SYMBOL vmlinux 0xf5c89ce7	tcp_v4_connect
