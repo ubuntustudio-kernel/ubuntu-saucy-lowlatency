@@ -4,6 +4,207 @@ linux-lowlatency (3.11.0-25.19) UNRELEASED; urgency=low
   CHANGELOG: Use the printchanges target to see the curent changes.
   CHANGELOG: Use the insertchanges target to create the final log.
 
+  [ Ubuntu: 3.11.0-25.43 ]
+
+  * Release Tracking Bug
+    - LP: #1336203
+  * cfg80211: free sme on connection failures
+    - LP: #1335084
+  * sched: Sanitize irq accounting madness
+    - LP: #1335084
+  * sched: Use CPUPRI_NR_PRIORITIES instead of MAX_RT_PRIO in cpupri check
+    - LP: #1335084
+  * net: cpsw: fix null dereference at probe
+    - LP: #1335084
+  * mac80211: fix suspend vs. association race
+    - LP: #1335084
+  * mac80211: fix on-channel remain-on-channel
+    - LP: #1335084
+  * af_iucv: wrong mapping of sent and confirmed skbs
+    - LP: #1335084
+  * net: filter: s390: fix JIT address randomization
+    - LP: #1335084
+  * perf: Limit perf_event_attr::sample_period to 63 bits
+    - LP: #1335084
+  * perf: Prevent false warning in perf_swevent_add
+    - LP: #1335084
+  * drm/gf119-/disp: fix nasty bug which can clobber SOR0's clock setup
+    - LP: #1335084
+  * drm/radeon: also try GART for CPU accessed buffers
+    - LP: #1335084
+  * drm/radeon: handle non-VGA class pci devices with ATRM
+    - LP: #1335084
+  * drm/radeon: fix register typo on si
+    - LP: #1335084
+  * drm/radeon: avoid segfault on device open when accel is not working.
+    - LP: #1335084
+  * can: peak_pci: prevent use after free at netdev removal
+    - LP: #1335084
+  * nfsd4: remove lockowner when removing lock stateid
+    - LP: #1335084
+  * nfsd4: warn on finding lockowner without stateid's
+    - LP: #1335084
+  * hwpoison, hugetlb: lock_page/unlock_page does not match for handling a
+    free hugepage
+    - LP: #1335084
+  * mm/memory-failure.c: fix memory leak by race between poison and
+    unpoison
+    - LP: #1335084
+  * netfilter: ipv4: defrag: set local_df flag on defragmented skb
+    - LP: #1335084
+  * ARM: OMAP3: clock: Back-propagate rate change from cam_mclk to dpll4_m5
+    on all OMAP3 platforms
+    - LP: #1335084
+  * dma: dw: allow shared interrupts
+    - LP: #1335084
+  * dmaengine: dw: went back to plain {request,free}_irq() calls
+    - LP: #1335084
+  * ARM: omap5: hwmod_data: Correct IDLEMODE for McPDM
+    - LP: #1335084
+  * Input: synaptics - add min/max quirk for the ThinkPad W540
+    - LP: #1335084
+  * futex: Add another early deadlock detection check
+    - LP: #1335084
+  * futex: Prevent attaching to kernel threads
+    - LP: #1335084
+  * ARM: OMAP4: Fix the boot regression with CPU_IDLE enabled
+    - LP: #1335084
+  * cpufreq: remove race while accessing cur_policy
+    - LP: #1335084
+  * cpufreq: cpu0: drop wrong devm usage
+    - LP: #1335084
+  * ARM: imx: fix error handling in ipu device registration
+    - LP: #1335084
+  * ALSA: hda - Fix onboard audio on Intel H97/Z97 chipsets
+    - LP: #1335084
+  * ARM: 8051/1: put_user: fix possible data corruption in put_user
+    - LP: #1335084
+  * ARM: 8064/1: fix v7-M signal return
+    - LP: #1335084
+  * Input: synaptics - T540p - unify with other LEN0034 models
+    - LP: #1335084
+  * drm/i915: Only copy back the modified fields to userspace from
+    execbuffer
+    - LP: #1335084
+  * dm cache: always split discards on cache block boundaries
+    - LP: #1335084
+  * powerpc: Fix 64 bit builds with binutils 2.24
+    - LP: #1335084
+  * powerpc, kexec: Fix "Processor X is stuck" issue during kexec from ST
+    mode
+    - LP: #1335084
+  * rtmutex: Fix deadlock detector for real
+    - LP: #1335084
+  * drm/radeon: don't allow RADEON_GEM_DOMAIN_CPU for command submission
+    - LP: #1335084
+  * audit: restore order of tty and ses fields in log output
+    - LP: #1335084
+  * drm/nouveau/pm/fan: drop the fan lock in fan_update() before
+    rescheduling
+    - LP: #1335084
+  * leds: leds-pwm: properly clean up after probe failure
+    - LP: #1335084
+  * clk: vexpress: NULL dereference on error path
+    - LP: #1335084
+  * fix our current target reap infrastructure
+    - LP: #1335084
+  * dual scan thread bug fix
+    - LP: #1335084
+  * genirq: Provide irq_force_affinity fallback for non-SMP
+    - LP: #1335084
+  * i2c: designware: Mask all interrupts during i2c controller enable
+    - LP: #1335084
+  * crypto: s390 - fix aes,des ctr mode concurrency finding.
+    - LP: #1335084
+  * Staging: speakup: Move pasting into a work item
+    - LP: #1335084
+  * USB: Avoid runtime suspend loops for HCDs that can't handle
+    suspend/resume
+    - LP: #1335084
+  * can: only rename enabled led triggers when changing the netdev name
+    - LP: #1335084
+  * USB: io_ti: fix firmware download on big-endian machines (part 2)
+    - LP: #1335084
+  * USB: ftdi_sio: add NovaTech OrionLXm product ID
+    - LP: #1335084
+  * USB: serial: option: add support for Novatel E371 PCIe card
+    - LP: #1335084
+  * USB: cdc-wdm: properly include types.h
+    - LP: #1335084
+  * md: always set MD_RECOVERY_INTR when aborting a reshape or other
+    "resync".
+    - LP: #1335084
+  * xhci: delete endpoints from bandwidth list before freeing whole device
+    - LP: #1335084
+  * md: always set MD_RECOVERY_INTR when interrupting a reshape thread.
+    - LP: #1335084
+  * ALSA: hda/analog - Fix silent output on ASUS A8JN
+    - LP: #1335084
+  * ALSA: hda/realtek - Correction of fixup codes for PB V7900 laptop
+    - LP: #1335084
+  * ALSA: hda/realtek - Fix COEF widget NID for ALC260 replacer fixup
+    - LP: #1335084
+  * iser-target: Add missing target_put_sess_cmd for ImmedateData failure
+    - LP: #1335084
+  * iscsi-target: Fix wrong buffer / buffer overrun in
+    iscsi_change_param_value()
+    - LP: #1335084
+  * percpu-refcount: fix usage of this_cpu_ops
+    - LP: #1335084
+  * target: Fix alua_access_state attribute OOPs for un-configured devices
+    - LP: #1335084
+  * mm: rmap: fix use-after-free in __put_anon_vma
+    - LP: #1335084
+  * usb: cdc-wdm: export cdc-wdm uapi header
+    - LP: #1335084
+  * staging: comedi: ni_daq_700: add mux settling delay
+    - LP: #1335084
+  * kvm: free resources after canceling async_pf
+    - LP: #1335084
+  * kvm: remove .done from struct kvm_async_pf
+    - LP: #1335084
+  * KVM: async_pf: mm->mm_users can not pin apf->mm
+    - LP: #1335084
+  * mm/page-writeback.c: fix divide by zero in pos_ratio_polynom
+    - LP: #1335084
+  * dma: mv_xor: Flush descriptors before activating a channel
+    - LP: #1335084
+  * skbuff: skb_segment: orphan frags before copying
+    - LP: #1335084
+  * Target/iscsi,iser: Avoid accepting transport connections during stop
+    stage
+    - LP: #1335084
+  * iser-target: Fix multi network portal shutdown regression
+    - LP: #1335084
+  * target: Allow READ_CAPACITY opcode in ALUA Standby access state
+    - LP: #1335084
+  * mm: compaction: reset cached scanner pfn's before reading them
+    - LP: #1335084
+  * mm: compaction: detect when scanners meet in isolate_freepages
+    - LP: #1335084
+  * MIPS: asm: thread_info: Add _TIF_SECCOMP flag
+    - LP: #1335084
+  * perf: Fix race in removing an event
+    - LP: #1335084
+  * hwmon: (ntc_thermistor) Fix dependencies
+    - LP: #1335084
+  * hwmon: (ntc_thermistor) Fix OF device ID mapping
+    - LP: #1335084
+  * fs,userns: Change inode_capable to capable_wrt_inode_uidgid
+    - LP: #1335084
+  * auditsc: audit_krule mask accesses need bounds checking
+    - LP: #1335084
+  * megaraid: Use resource_size_t for PCI resources, not long
+    - LP: #1335084
+  * Linux 3.11.10.12
+    - LP: #1335084
+  * lzo: properly check for overruns
+    - LP: #1335313
+    - CVE-2014-4608
+  * lz4: ensure length does not wrap
+    - LP: #1335314
+    - CVE-2014-4611
+
  -- Kaj Ailomaa <zequence@mousike.me>  Thu, 03 Jul 2014 13:06:47 +0200
 
 linux-lowlatency (3.11.0-24.18) saucy; urgency=low
