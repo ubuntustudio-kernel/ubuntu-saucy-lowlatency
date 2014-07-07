@@ -206,6 +206,16 @@ linux (3.11.0-25.43) saucy; urgency=low
 
  -- Luis Henriques <luis.henriques@canonical.com>  Tue, 01 Jul 2014 17:00:20 +0100
 
+linux (3.11.0-24.42) saucy; urgency=low
+
+  [ Upstream Kernel Changes ]
+
+  * x86_64,ptrace: Enforce RIP <= TASK_SIZE_MAX (CVE-2014-4699)
+    - LP: #1337339
+    - CVE-2014-4699
+
+ -- Luis Henriques <luis.henriques@canonical.com>  Fri, 04 Jul 2014 09:20:33 +0100
+
 linux (3.11.0-24.41) saucy; urgency=low
 
   [ Luis Henriques ]
