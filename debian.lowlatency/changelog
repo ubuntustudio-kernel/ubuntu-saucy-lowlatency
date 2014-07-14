@@ -230,6 +230,20 @@ linux-lowlatency (3.11.0-25.19) saucy; urgency=low
 
  -- Kaj Ailomaa <zequence@mousike.me>  Thu, 03 Jul 2014 13:06:47 +0200
 
+linux-lowlatency (3.11.0-24.19) saucy; urgency=low
+
+  [ Andy Whitcroft ]
+
+  * rebase to Ubuntu-3.11.0-24.42
+
+  [ Ubuntu: 3.11.0-24.42 ]
+
+  * x86_64,ptrace: Enforce RIP <= TASK_SIZE_MAX (CVE-2014-4699)
+    - LP: #1337339
+    - CVE-2014-4699
+
+ -- Andy Whitcroft <apw@canonical.com>  Fri, 04 Jul 2014 17:37:15 +0100
+
 linux-lowlatency (3.11.0-24.18) saucy; urgency=low
 
   [ Kaj Ailomaa ]
